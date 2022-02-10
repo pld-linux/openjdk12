@@ -34,6 +34,7 @@ Source0:	https://github.com/openjdk/jdk12u/archive/jdk-%{version}-ga/%{name}-%{v
 Source10:	make-cacerts.sh
 Patch0:		no_optflags.patch
 Patch1:		make-4.3.patch
+Patch2:		x32.patch
 URL:		http://openjdk.java.net/
 BuildRequires:	/usr/bin/jar
 BuildRequires:	alsa-lib-devel
@@ -345,6 +346,7 @@ Przykłady dla OpenJDK.
 
 %patch0 -p1
 %patch1 -p1
+%patch2 -p1
 
 %build
 # Make sure we have /proc mounted - otherwise idlc will fail later.
