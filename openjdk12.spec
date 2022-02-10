@@ -581,8 +581,10 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{dstdir}/lib/server
 %attr(755,root,root) %{dstdir}/lib/server/*.so
 %{dstdir}/lib/server/Xusage.txt
+%if %{without zero}
 %{dstdir}/lib/server/classes.jsa
-%{!?with_zero:%{dstdir}/lib/classlist}
+%{dstdir}/lib/classlist
+%endif
 %{dstdir}/lib/jrt-fs.jar
 %{dstdir}/lib/jvm.cfg
 %attr(755,root,root) %{dstdir}/lib/libattach.so
