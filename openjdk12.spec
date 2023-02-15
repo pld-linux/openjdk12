@@ -26,7 +26,7 @@ Summary:	Open-source implementation of the Java Platform, Standard Edition
 Summary(pl.UTF-8):	Wolnoźródłowa implementacja Java 12 SE
 Name:		openjdk12
 Version:	12.0.2
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Development/Languages/Java
 Source0:	https://github.com/openjdk/jdk12u/archive/jdk-%{version}-ga/%{name}-%{version}.tar.gz
