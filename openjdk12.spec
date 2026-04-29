@@ -37,7 +37,6 @@ Patch1:		make-4.3.patch
 Patch2:		x32.patch
 Patch3:		aarch64.patch
 URL:		http://openjdk.java.net/
-BuildRequires:	/usr/bin/jar
 BuildRequires:	alsa-lib-devel
 BuildRequires:	ant
 BuildRequires:	autoconf
