@@ -36,6 +36,7 @@ Patch0:		no_optflags.patch
 Patch1:		make-4.3.patch
 Patch2:		x32.patch
 Patch3:		aarch64.patch
+Patch4:		glibc-2.42.patch
 URL:		http://openjdk.java.net/
 BuildRequires:	alsa-lib-devel
 BuildRequires:	ant
@@ -348,6 +349,7 @@ Przykłady dla OpenJDK.
 %patch -P1 -p1
 %patch -P2 -p1
 %patch -P3 -p1
+%patch -P4 -p1
 
 %build
 # Make sure we have /proc mounted - otherwise idlc will fail later.
