@@ -40,7 +40,6 @@ Patch4:		glibc-2.42.patch
 Patch5:		types.patch
 URL:		http://openjdk.java.net/
 BuildRequires:	alsa-lib-devel
-BuildRequires:	ant
 BuildRequires:	autoconf
 BuildRequires:	bash
 %{?with_cacerts:BuildRequires:	ca-certificates-update}
